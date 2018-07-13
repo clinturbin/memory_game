@@ -1,0 +1,165 @@
+* {
+    --backColor: rgb(35, 35, 35);
+    --tileColor: rgb(60, 100, 209);
+}
+
+body {
+    font-size: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 0;
+    background-color: var(--backColor);
+    position: relative;
+}
+
+
+#loadPage, #normalPage, #hardPage, #endPage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boardContainer {
+    margin: 10% auto;
+    max-width: 80vh;
+    width: 80vw;
+    max-height: 80vh;
+    height: 80vw;
+}
+
+.showBoard {
+    visibility: visible;
+}
+
+.hidePage {
+    visibility: hidden;
+}
+
+/* Styling for Main Load Screen */
+#loadDisplay {
+    background-color: var(--tileColor);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+#load1, #load3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4vh;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#load2 {
+    flex: 1.5;
+    background-color: white;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#instructions {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#instructions p {
+    color: var(--tileColor);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7vh;
+}
+#modeSelect {
+    flex: 1;
+}
+
+#modes {
+    position: relative;
+    left: 30%;
+    width: 40%;
+    font-size: 2vh;
+    border: 2px solid var(--tileColor);
+}
+#modes div {
+    margin: 1vh 1vh;
+    padding: 1vh 0 1vh 5vh;
+}
+
+
+#playBtn, #playAgain {
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    font-size: 3vh;
+    text-transform: uppercase;
+    outline: none;
+}
+
+/* Styling for Game Tiles */
+.normalTile {
+    width: 22%;
+    padding-bottom: 22%;
+    float: left;
+    margin: 1.5%;
+    border-radius: 15%;
+}
+
+.hardTile {
+    width: 15%;
+    padding-bottom: 15%;
+    float: left;
+    margin: 0.83%;
+    border-radius: 15%;
+}
+
+.normalTile, .hardTile {
+    transition: all 0.8s;
+}
+
+
+/* Styling for end Screen */
+#endDisplay {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+#end1, #end3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#end2 {
+    flex: 1.75;
+    background-color: var(--tileColor);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#end2 p {
+    color: var(--tileColor);
+    font-size: 3vh;
+    color: white;
+    font-size: 4vh;
+}
+ #end2p1 {
+     font-size: 5vh;
+     text-transform: uppercase;
+ }

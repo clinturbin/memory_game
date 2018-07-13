@@ -1,0 +1,118 @@
+<!-- PRACTICE FILE -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Memory Game v3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> -->
+    
+</head>
+<body>
+  <div id="loadPage">
+      <div id="loadDisplay" class="boardContainer">
+          <div id="load1"><h1>Welcome to C-Bot's Memory Game!!!</h1></div>
+          <div id="load2">
+              <div id="instructions">
+                  <p>Select Mode</p>
+                  <p>Normal Mode (4 X 4 Grid) / Hard Mode (6 X 6 Grid)</p>
+              </div>
+              <div id="modeSelect">
+                  <div id="modes">
+                    <div id="normalMode">
+                        <input type="radio" id="normal" name="mode" checked>
+                        <label for="normal">Normal Mode</label>
+                    </div>
+                    <div id="hardMode">
+                        <input type="radio" id="hard" name="mode">
+                        <label for="hard">Hard Mode</label>
+                    </div>
+                  </div>
+
+              </div>
+          </div>
+          <div id="load3"><button id="playBtn">Play</button></div>
+      </div>
+  </div>
+  <div id="normalPage" class="hidePage">
+      <div id="normalBoard" class="boardContainer">
+          <div id="nTile1" class="normalTile"></div>
+          <div id="nTile2" class="normalTile"></div>
+          <div id="nTile3" class="normalTile"></div>
+          <div id="nTile4" class="normalTile"></div>
+          <div id="nTile5" class="normalTile"></div>
+          <div id="nTile6" class="normalTile"></div>
+          <div id="nTile7" class="normalTile"></div>
+          <div id="nTile8" class="normalTile"></div>
+          <div id="nTile9" class="normalTile"></div>
+          <div id="nTile10" class="normalTile"></div>
+          <div id="nTile11" class="normalTile"></div>
+          <div id="nTile12" class="normalTile"></div>
+          <div id="nTile13" class="normalTile"></div>
+          <div id="nTile14" class="normalTile"></div>
+          <div id="nTile15" class="normalTile"></div>
+          <div id="nTile16" class="normalTile"></div>
+      </div>
+  </div>
+  <div id="hardPage" class="hidePage">
+      <div id="hardBoard" class="boardContainer">
+          <div id="hTile1" class="hardTile"></div>
+          <div id="hTile2" class="hardTile"></div>
+          <div id="hTile3" class="hardTile"></div>
+          <div id="hTile4" class="hardTile"></div>
+          <div id="hTile5" class="hardTile"></div>
+          <div id="hTile6" class="hardTile"></div>
+          <div id="hTile7" class="hardTile"></div>
+          <div id="hTile8" class="hardTile"></div>
+          <div id="hTile9" class="hardTile"></div>
+          <div id="hTile10" class="hardTile"></div>
+          <div id="hTile11" class="hardTile"></div>
+          <div id="hTile12" class="hardTile"></div>
+          <div id="hTile13" class="hardTile"></div>
+          <div id="hTile14" class="hardTile"></div>
+          <div id="hTile15" class="hardTile"></div>
+          <div id="hTile16" class="hardTile"></div>
+          <div id="hTile17" class="hardTile"></div>
+          <div id="hTile18" class="hardTile"></div>
+          <div id="hTile19" class="hardTile"></div>
+          <div id="hTile20" class="hardTile"></div>
+          <div id="hTile21" class="hardTile"></div>
+          <div id="hTile22" class="hardTile"></div>
+          <div id="hTile23" class="hardTile"></div>
+          <div id="hTile24" class="hardTile"></div>
+          <div id="hTile25" class="hardTile"></div>
+          <div id="hTile26" class="hardTile"></div>
+          <div id="hTile27" class="hardTile"></div>
+          <div id="hTile28" class="hardTile"></div>
+          <div id="hTile29" class="hardTile"></div>
+          <div id="hTile30" class="hardTile"></div>
+          <div id="hTile31" class="hardTile"></div>
+          <div id="hTile32" class="hardTile"></div>
+          <div id="hTile33" class="hardTile"></div>
+          <div id="hTile34" class="hardTile"></div>
+          <div id="hTile35" class="hardTile"></div>
+          <div id="hTile36" class="hardTile"></div>
+      </div>
+  </div>
+  <div id="endPage" class="hidePage">
+      <div id="endDisplay" class="boardContainer">
+          <div id="end1"></div>
+          <div id="end2">
+                <p id="end2p1">Congratulations!!!</p>
+                <p id="end2p2">It took you <span id="guesses">-</span> guesses!</p>
+          </div>
+          <div id="end3">
+              <button id="playAgain">Play Again</button>
+          </div>
+
+      </div>
+  </div>
+    
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+    
+</body>
+</html>
