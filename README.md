@@ -18,25 +18,14 @@ Game Walkthrough
 ----------------
 1) Game Load Screen
 The game starts on a load where the player chooses a difficulty setting
-<p>
-  <img align="left" width="300" height="300" src="/resources/load-screen">
-</p>
+
 2) Game Board
 Normal Mode (4x4 board)
-<p align="left">
-  <img align="left" width="300" height="300" src="/resources/pre-board-4x4.jpg">
-  <img align="left" width="300" height="300" src="/resources/game-board-4x4.jpg">
-</p>
+
 Hard Mode (6x6 board)
-<p align="left">
-  <img align="left" width="300" height="300" src="/resources/pre-board-6x6.jpg">
-  <img align="left" width="300" height="300" src="/resources/game-board-6x6.jpg">
-</p>
+
 3) End Screen
 After the player has matched all the squares, they are shown how many turns it took to remember all the squares and are given the option to play again.
-<p align="left">
-  <img align="left" width="300" height="300" src="/resources/end-screen.jpg">
-</p>
 
 Demo
 -----
